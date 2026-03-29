@@ -1,0 +1,27 @@
+/* ── CURRENT CLIENT: DEMO ───────────────────────────────────
+   Type: D (Retail — default demo)
+   To customise: swap the 8 colour values and 3 font names.
+   Nothing else should need to change.
+   ──────────────────────────────────────────────────────────── */
+
+:root {
+  /* Colours */
+  --color-bg:           #0F0D0B;
+  --color-surface:      #1A1714;
+  --color-border:       #2E2926;
+  --color-primary:      #C1121F;
+  --color-secondary:    #FF4D4D;
+  --color-text:         #F5ECD7;
+  --color-muted:        #8A8078;
+  --color-accent:       #C1121F;
+
+  /* RGB versions for alpha usage */
+  --color-primary-rgb:  193, 18, 31;
+  --color-accent-rgb:   193, 18, 31;
+  --color-text-rgb:     245, 236, 215;
+
+  /* Section spacing */
+  --section-y:          120px;
+  --section-y-mob:      64px;
+  --max-width:          1280px;
+}
